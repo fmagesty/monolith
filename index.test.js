@@ -1,11 +1,11 @@
-import assert from 'assert'
+import express from 'express'
+const app = express()
+const port = 3000
 
-const runTestes = async () => {
-  const expected = 'Hello World!\n'
-  const resp = await fetch('http://localhost:3000')
-  const data = await resp.text()
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
 
-  assert.equal(data, expected)
-}
-
-runTestes()
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})
