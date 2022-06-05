@@ -12,5 +12,3 @@ const apiRequester = async () => {
 }
 
 apiRequester()
-apiRequester()
-apiRequester()
