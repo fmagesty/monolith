@@ -1,0 +1,13 @@
+{
+  "name": "monolith",
+  "version": "1.0.0",
+  "description": "teste api",
+  "main": "index.js",
+  "repository": "git@github.com:fmagesty/monolith.git",
+  "author": "Felipe <fmagesty@gmail.com>",
+  "license": "MIT",
+  "private": null,
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
