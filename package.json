@@ -6,8 +6,15 @@
   "repository": "git@github.com:fmagesty/monolith.git",
   "author": "Felipe <fmagesty@gmail.com>",
   "license": "MIT",
-  "private": null,
+  "private": false,
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "global": "^4.4.0",
+    "n": "^8.2.0"
+  },
+  "type": "module",
+  "scripts": {
+    "dev-start": "node index.js",
+    "test": "node index.test.js"
   }
 }
