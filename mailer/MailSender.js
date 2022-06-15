@@ -1,6 +1,7 @@
 import mailer from "express-mailer";
 
 export const MailSender = () => {
+  console.log("bla");
   const app = require("express")(); ;
   const emailSender = process.env.EMAIL_SENDER;
   console.log(emailSender);
